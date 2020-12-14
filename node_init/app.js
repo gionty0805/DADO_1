@@ -22,6 +22,7 @@ app.set('view engine', 'ejs'); //ejs 템플릿 설정
 //app.use(logger('combined'));
 app.use(logger('common'));
 
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
